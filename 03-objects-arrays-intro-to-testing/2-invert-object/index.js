@@ -11,5 +11,5 @@ export function invertObj(obj) {
 
       return Object.fromEntries(newArr);
     } else { return {}; }
-  } else { return undefined; }
+  }
 }
